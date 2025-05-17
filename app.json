@@ -1,0 +1,17 @@
+{
+  "name": "Image to Text Converter",
+  "description": "A Flask application that converts images to text using Google Cloud Vision API",
+  "repository": "https://github.com/Yuxas-cookie/last",
+  "keywords": ["python", "flask", "google-cloud-vision"],
+  "env": {
+    "GOOGLE_APPLICATION_CREDENTIALS": {
+      "description": "Google Cloud Service Account credentials (JSON)",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+} 
